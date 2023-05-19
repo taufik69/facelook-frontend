@@ -2,20 +2,21 @@ import React from "react";
 import Logo from "./Headerutils/Logo";
 import { Link } from "react-router-dom";
 import Menu from "./Headerutils/Menu";
+import Headericon from "./Headerutils/Headericon";
 const index = () => {
   return (
     <>
-      <div className="flex items-center justify-between bg-primary_color px-7 py-5">
-        <div className="max-w-[10%] ">
+      <div className="flex items-center bg-primary_color px-7 py-5 sm:flex-wrap">
+        <div className="w-[10%] px-5">
           <Link to="/">
             <Logo />
           </Link>
         </div>
-        <div className="max-w-[60%]">
+        <div className="w-[54%]">
           <Menu />
         </div>
-        <div className="max-w-[30%]">
-          <h1>tuafi sila</h1>
+        <div className="w-[35%]">
+          <Headericon />
         </div>
       </div>
     </>

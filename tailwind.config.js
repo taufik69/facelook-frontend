@@ -14,6 +14,7 @@ module.exports = {
       normal_white_color: "var(--normal_white_color)",
       page_body_color: "var(--page_body_color)",
       error_color: "var(--error_color)",
+      search_color: "var( --search_color)",
     },
     container: {
       center: true,
